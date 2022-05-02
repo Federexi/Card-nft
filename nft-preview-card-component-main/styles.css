@@ -1,0 +1,110 @@
+body {
+    background-color: #0D192B;
+}
+
+.card-nft {
+    background-color: #14253D;
+    width: 330px;
+    height: 580px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.nft {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 23px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.description {
+    color: #71a7c2;
+    margin-left: 20px;
+    margin-right: 19px;
+    font-size: 17px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+    padding-top: 29px;
+}
+
+.price-days {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    color: aqua;
+    font-family: 'source sans pro';
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.divider {
+    height: 1px;
+  width: 288px;
+  background-color: #2F415B;
+  margin-top: 15px;
+  margin-bottom: 2em;
+  margin-left: 19px;
+}
+
+.ethereum {
+    height: 18px;
+    vertical-align: middle;
+}
+
+.days {
+    margin-top: 33px;
+    margin-left: 110px;
+    font-size: 16px;
+    color: #8BACD9;
+}
+
+
+.clock {
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.avatar {
+    height: 48px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.author span {
+    color: #71a7c2;
+    margin-left: 14px;
+    font-size: 13px;
+    font-family: 'source sans pro';
+}
+
+.author span span {
+    color: #fff;
+    margin-left: 3px;
+}
